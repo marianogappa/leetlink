@@ -20,6 +20,10 @@ $ leetlink 207 | xargs open
 go install github.com/marianogappa/leetlink@latest
 ```
 
+## It doesn't work for e.g. 175!
+
+This tool uses Leetcode's stats API endpoint, and it seems 13% of the problems are missing. Looks like many of those are SQL & Bash problems, although there are others missing.
+
 ## Disclaimer
 
 It looks like I did this, but actually it was mostly ChatGPT 4 via Bing Chat:
